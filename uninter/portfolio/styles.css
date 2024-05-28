@@ -51,6 +51,7 @@ footer {
 
 @media (max-width: 768px) {
     nav ul li {
+        /* Itens da barra de navegação em tela pequena */
         display: block;
         margin-bottom: 10px;
     }
@@ -79,7 +80,14 @@ footer {
 
 .tab-content a:hover {
     color: #18bc9c;
+    transition: color 0.3s ease-in-out;
 }
+
+.navbar a:hover {
+    color: #18bc9c;
+    transition: color 0.3s ease-in-out;
+}
+
 
 iframe {
     width: 100%;
